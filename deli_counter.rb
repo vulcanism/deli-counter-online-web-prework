@@ -12,6 +12,9 @@ def line(deli)
   end
 end
 
+# using no arguments 
+# puts "You are #{number} in line."
+
 def take_a_number(deli, name)
   deli << name
   puts "Welcome, #{name}. You are number #{deli.length} in line."
